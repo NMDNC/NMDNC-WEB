@@ -1,0 +1,16 @@
+body{background-color: black;}
+header .inner{display: flex; height: 100%; margin: 0 auto; align-items: center; padding: 0 40px; box-sizing: border-box; }
+header .inner h1{margin: 15px 0;}
+header .inner h1 a{font-size: 32px; color: white;}
+header nav{position: relative;}
+header nav > div ul{display: flex; justify-content: space-between; flex-grow: 1; align-items: center; width: 100%;}
+header nav > div ul > li{ width: 220px; height: 59px; text-align: center;}
+header nav > div ul > li > a{line-height: 60px; padding: 25px; font-size: 16px; color: white;}
+header nav > div ul > li ol{display: none; height: 52px;}
+header nav > div ul > li:hover ol{display:block}
+header nav > div ul > li ol li{padding:20px; box-sizing: border-box;}
+header nav > div ul > li ol a{font-size: 18px; padding: 16px; color: white;}
+
+section .inner{padding: 0 20px; margin: 0 20px; height: 700px; background: url("../img/217BD1405831732617.jpg") no-repeat center center/cover;}
+section h2{font-size: 32px; padding-top: 300px; color: white;}
+section p{font-size: 20px; margin-top: 20px; color: wheat;}
